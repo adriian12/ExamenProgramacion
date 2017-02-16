@@ -1,8 +1,8 @@
 package org.foobarspam.TestCarrera;
 
+import org.foobarspam.carrera;
 import static org.junit.Assert.*;
 
-import org.foobarspam.cotxox.carrera;
 import org.junit.Test;
 
 public class TestCarrera {

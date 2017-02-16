@@ -1,0 +1,59 @@
+package org.foobarspam.cotxox.carrera;
+import org.foobarspam.cotxox.conductores.PoolConductores;
+import org.foobarspam.cotxox.tarifa.Tarifa;
+
+public class Carrera {
+	
+	// -------------------- Propiedades --------------------
+	
+	int tiempoEsperado = 0; //En minutos
+	int tiempoCarrera = 0; //En minutos
+	double costeTotal = 5;
+	String conductor = null;
+	
+	
+	// -------------------- Constructores --------------------
+	
+	public Carrera(){
+		
+	}
+
+	public Carrera(int tiempoEsperado, int tiempoCarrera, double costeTotal, String conductor) {
+		
+		this.tiempoEsperado = tiempoEsperado;
+		this.tiempoCarrera = tiempoCarrera;
+		this.costeTotal = costeTotal;
+		this.conductor = conductor;
+	}
+
+	
+	//-------------------------Getters & Setters---------------------------
+	
+	public int getTiempoEsperado() {
+		return this.tiempoEsperado;
+	}
+
+	public int getTiempoCarrera() {
+		return this.tiempoCarrera;
+	}
+
+	public double getCosteTotal() {
+		return this.costeTotal;
+	}
+
+	public String getConductor() {
+		return this.conductor;
+	}
+	
+	
+	//---------------------------Metodos------------------------------------
+	
+	public String getTarjetaCredito(){
+		/*
+		 * devuelve el número de la tarjeta de crédito del usuario/a
+		 */
+		
+		
+	}
+	
+}

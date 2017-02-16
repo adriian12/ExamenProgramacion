@@ -1,0 +1,10 @@
+package org.foobarspam.cotxox.tarifa;
+
+public class Tarifa {
+
+	//-----------------------------Parametros---------------------------------
+	double costeMilla = 1.35; //En euros
+	double costeMinuto = 0.35; //En euros
+	int costeMinimo = 5; //En euros
+	int porcentajeComision = 20; //En porcentaje %
+}

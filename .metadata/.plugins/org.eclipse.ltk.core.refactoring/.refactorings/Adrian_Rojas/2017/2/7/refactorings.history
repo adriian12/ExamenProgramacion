@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;org.foobarspam.carrera&apos; to &apos;org.foobarspam.cotxox.carrera&apos;&#x0A;- Original project: &apos;Adrian_Rojas&apos;&#x0A;- Original element: &apos;Adrian_Rojas/src/org.foobarspam.carrera&apos;&#x0A;- Renamed element: &apos;Adrian_Rojas/src/org.foobarspam.cotxox.carrera&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;org.foobarspam.carrera&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;org.foobarspam.carrera" name="org.foobarspam.cotxox.carrera" qualified="false" references="true" stamp="1487264145962" textual="false" version="1.0"/>
+</session>
