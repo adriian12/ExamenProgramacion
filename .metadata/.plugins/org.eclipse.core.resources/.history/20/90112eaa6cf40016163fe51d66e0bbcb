@@ -75,7 +75,7 @@ public class Carrera {
 		
 		//devuelve la distancia entre el origen y el destino en km
 		
-		return this.getDistancia();
+		return this.getDestino();
 	}
 	
 	public double getCosteEsperado(){

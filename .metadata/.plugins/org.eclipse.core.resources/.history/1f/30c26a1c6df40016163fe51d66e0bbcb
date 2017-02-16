@@ -3,12 +3,11 @@ import org.foobarspam.cotxox.carrera.Carrera;
 
 public class Tarifa {
 
-	// -------------------- Propiedades --------------------
-	
-	public double costeMilla = 1.35; //En euros
-	public double costeMinuto = 0.35; //En euros
-	public int costeMinimo = 5; //En euros
-	public int porcentajeComision = 20; //En porcentaje %
+	//-----------------------------Parametros---------------------------------
+	double costeMilla = 1.35; //En euros
+	double costeMinuto = 0.35; //En euros
+	int costeMinimo = 5; //En euros
+	int porcentajeComision = 20; //En porcentaje %
 	
 	// -------------------- Constructores --------------------
 	

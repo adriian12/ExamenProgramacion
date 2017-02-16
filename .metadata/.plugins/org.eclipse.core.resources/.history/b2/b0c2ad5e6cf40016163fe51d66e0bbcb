@@ -6,10 +6,10 @@ public class Carrera {
 	
 	// -------------------- Propiedades --------------------
 	
-	public int tiempoEsperado = 0; //En minutos
-	public int tiempoCarrera = 0; //En minutos
-	public double costeTotal = 5;
-	public String conductor = null;
+	int tiempoEsperado = 0; //En minutos
+	int tiempoCarrera = 0; //En minutos
+	double costeTotal = 5;
+	String conductor = null;
 	
 	
 	// -------------------- Constructores --------------------
@@ -75,7 +75,7 @@ public class Carrera {
 		
 		//devuelve la distancia entre el origen y el destino en km
 		
-		return this.getDistancia();
+		return this.getDestino();
 	}
 	
 	public double getCosteEsperado(){
