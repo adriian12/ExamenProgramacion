@@ -64,9 +64,9 @@ public class Conductor {
 	
 	public double setValoracion(valoracion){
 		int nuevaValoracion = 0;
-		for (Conductor valoraciones : getValoraciones()) {
+		for (Conductor valoraciones : getValocariones()) {
 			if (valoraciones == null) {
-				nuevaValoracion++;
+				nueva++;
 			}
 		}
 		return nuevaValoracion;

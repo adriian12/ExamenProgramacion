@@ -63,13 +63,7 @@ public class Conductor {
 	//---------------------------Metodos------------------------------------
 	
 	public double setValoracion(valoracion){
-		int nuevaValoracion = 0;
-		for (Conductor valoraciones : getValoraciones()) {
-			if (valoraciones == null) {
-				nuevaValoracion++;
-			}
-		}
-		return nuevaValoracion;
+		
 	}
 
 }

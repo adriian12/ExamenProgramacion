@@ -32,44 +32,32 @@ public class Conductor {
 	//-------------------------Getters & Setters---------------------------
 	
 	public String getNombre() {
-		return this.nombre;
+		return nombre;
 	}
 
 
 	public String getModelo() {
-		return this.modelo;
+		return modelo;
 	}
 
 
 	public String getMatricula() {
-		return this.matricula;
+		return matricula;
 	}
 
 
 	public double getValoracionMedia() {
-		return this.valoracionMedia;
+		return valoracionMedia;
 	}
 
 
 	public Conductor[] getValoraciones() {
-		return this.valoraciones;
+		return valoraciones;
 	}
 
 
 	public Boolean getOcupado() {
-		return this.ocupado;
-	}
-	
-	//---------------------------Metodos------------------------------------
-	
-	public double setValoracion(valoracion){
-		int nuevaValoracion = 0;
-		for (Conductor valoraciones : getValoraciones()) {
-			if (valoraciones == null) {
-				nuevaValoracion++;
-			}
-		}
-		return nuevaValoracion;
+		return ocupado;
 	}
 
 }
