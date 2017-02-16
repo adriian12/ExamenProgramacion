@@ -1,0 +1,47 @@
+package org.foobarspam.carrera;
+
+public class Carrera {
+	
+	// -------------------- Propiedades --------------------
+	
+	int tiempoEsperado = 0; //En minutos
+	int tiempoCarrera = 0; //En minutos
+	double costeTotal = 5;
+	String conductor = null;
+	
+	
+	// -------------------- Constructores --------------------
+	
+	public Carrera(){
+		
+	}
+
+	public Carrera(int tiempoEsperado, int tiempoCarrera, double costeTotal, String conductor) {
+		
+		this.tiempoEsperado = tiempoEsperado;
+		this.tiempoCarrera = tiempoCarrera;
+		this.costeTotal = costeTotal;
+		this.conductor = conductor;
+	}
+
+	
+	//-------------------------Getters & setters---------------------------
+	
+	public int getTiempoEsperado() {
+		return this.tiempoEsperado;
+	}
+
+	public int getTiempoCarrera() {
+		return this.tiempoCarrera;
+	}
+
+	public double getCosteTotal() {
+		return this.costeTotal;
+	}
+
+	public String getConductor() {
+		return this.conductor;
+	}
+	
+	
+}

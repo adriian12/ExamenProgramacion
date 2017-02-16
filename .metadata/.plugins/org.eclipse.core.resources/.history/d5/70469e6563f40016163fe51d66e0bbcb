@@ -1,0 +1,12 @@
+package org.foobarspam.carrera;
+
+public class Carrera {
+	
+	// -------------------- Propiedades --------------------
+	
+	int tiempoEsperado = 0; //En minutos
+	int tiempoCarrera = 0; //En minutos
+	double costeTotal = 5;
+	String conductor = null;
+	
+}
