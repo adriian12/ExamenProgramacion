@@ -8,8 +8,8 @@ public class Conductor {
 	public String modelo = null;
 	public String matricula = null; //no es int porque paarecen numeros y letras
 	public double valoracionMedia = 0d;
-	public Conductor valoraciones[] = new Conductores[]; //array de valoraciones del conductor 
-	public Boolean ocupado = false; //lo iniciamos en false
+	public Conductor valoraciones[] = new Conductor[]; //array de valoraciones del conductor 
+	public Boolean ocupado = false; //lo iniciamos en false significa que esta libre
 
 
 	//-------------------- Constructores --------------------
@@ -69,9 +69,10 @@ public class Conductor {
 				nuevaValoracion++;
 			}
 		}
+		setValoracion()[valoraciones] = Conductor;
 		return nuevaValoracion;
 	}
-
+	
 }
 
 

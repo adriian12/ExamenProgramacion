@@ -85,7 +85,8 @@ public class Carrera {
 		return Tarifa.getCosteTotalEsperado(carrera);
 	}
 	
-	public String asignarConductor(PoolConductores conductores){
+	public String asignarConductor(PoolConductores[] conductores){
 		
 	}
+	
 }
