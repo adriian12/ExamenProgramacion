@@ -27,19 +27,19 @@ public class Tarifa {
 	//-------------------------Getters & Setters---------------------------
 	
 	public double getCosteMilla() {
-		return this.costeMilla;
+		return costeMilla;
 	}
 
 	public double getCosteMinuto() {
-		return this.costeMinuto;
+		return costeMinuto;
 	}
 
 	public int getCosteMinimo() {
-		return this.costeMinimo;
+		return costeMinimo;
 	}
 
 	public int getPorcentajeComision() {
-		return this.porcentajeComision;
+		return porcentajeComision;
 	}
 	
 	

@@ -82,10 +82,5 @@ public class Carrera {
 		
 		//devuelve el coste esperado del trayecto, cuyo cálculo es responsabilidad de la clase Tarifa
 		
-		return Tarifa.getCosteTotalEsperado(carrera);
-	}
-	
-	public String asignarConductor(PoolConductores conductores){
-		
-	}
+		return Tarifa.getCosteEsperado();
 }

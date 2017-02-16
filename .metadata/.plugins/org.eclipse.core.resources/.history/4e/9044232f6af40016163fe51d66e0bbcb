@@ -53,7 +53,7 @@ public class Carrera {
 		 * devuelve el número de la tarjeta de crédito del usuario/a
 		 */
 		
-		return this.getTarjetaCredito();
+		
 	}
 	
 	public String getOrigen(){
@@ -61,31 +61,14 @@ public class Carrera {
 		 * devuelve el lugar de origen del trayecto
 		 */
 		
-		return this.getOrigen();
 	}
 	
 	public String getDestino(){
+		/*
+		 * devuelve el lugar de destino del trayecto
+		 */
 		
-		//devuelve el lugar de destino del trayecto
-		 
-		return this.getDestino();
 	}
 	
-	public double getDistancia(){
-		
-		//devuelve la distancia entre el origen y el destino en km
-		
-		return this.getDestino();
-	}
 	
-	public double getCosteEsperado(){
-		
-		//devuelve el coste esperado del trayecto, cuyo cálculo es responsabilidad de la clase Tarifa
-		
-		return Tarifa.getCosteTotalEsperado(carrera);
-	}
-	
-	public String asignarConductor(PoolConductores conductores){
-		
-	}
 }

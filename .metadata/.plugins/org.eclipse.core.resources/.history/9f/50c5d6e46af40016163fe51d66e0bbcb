@@ -71,21 +71,5 @@ public class Carrera {
 		return this.getDestino();
 	}
 	
-	public double getDistancia(){
-		
-		//devuelve la distancia entre el origen y el destino en km
-		
-		return this.getDestino();
-	}
 	
-	public double getCosteEsperado(){
-		
-		//devuelve el coste esperado del trayecto, cuyo cálculo es responsabilidad de la clase Tarifa
-		
-		return Tarifa.getCosteTotalEsperado(carrera);
-	}
-	
-	public String asignarConductor(PoolConductores conductores){
-		
-	}
 }
